@@ -19,7 +19,13 @@ chkconfig docker on
    vi /etc/sudoers
    jenkins ALL=(ALL) NOPASSWD: ALL
 ```   
-   
+
+## install plugin on Jenkins
+```sh
+Maven intergation
+    &
+Docker 
+```
 ## Sudo Access
 <a href="https://ibb.co/94pQLQK"><img src="https://i.ibb.co/jw8n2n0/sudo.jpg" alt="sudo" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>where to upload images</a><br />
 
