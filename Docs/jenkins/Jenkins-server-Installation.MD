@@ -82,5 +82,6 @@ http://YOUR-SERVER-PUBLIC-IP:8080
 1. Build job
 1. Check "console output"
 
+#path Image
 <a href="https://ibb.co/TL38pTm"><img src="https://i.ibb.co/PQHh3Yw/JAVA-PATH.jpg" alt="JAVA-PATH" border="0" /></a>
 
