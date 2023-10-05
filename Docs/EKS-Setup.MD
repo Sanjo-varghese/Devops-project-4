@@ -60,11 +60,7 @@ sudo ./aws/install
    --zones <AZ-1>,<AZ-2>
 ```
 
-
-
-
-
-example:
+###Exampe 
 ```sh
 eksctl create cluster --name Sanjo-cluster --region us-west-2 --node-type t2.medium --zones us-west-2a,us-west-2b
 ```
