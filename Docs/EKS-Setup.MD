@@ -36,7 +36,8 @@ sudo ./aws/install
    a. Download and extract the latest release   
    b. Move the extracted binary to /usr/local/bin   
    c. Test that your eksclt installation was successful   
-   ```sh
+  
+```sh
    curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
    sudo mv /tmp/eksctl /usr/local/bin
    eksctl version
@@ -51,6 +52,7 @@ sudo ./aws/install
    CloudFormation
 
 4. Create EKS cluster and nodes from EC2 Management Host
+
    ```sh
    eksctl create cluster --name cluster-name  \
    --region region-name \
@@ -61,6 +63,7 @@ sudo ./aws/install
 ```
 
 ###Exampe 
+
 ```sh
 eksctl create cluster --name Sanjo-cluster --region us-west-2 --node-type t2.medium --zones us-west-2a,us-west-2b
 ```
@@ -69,6 +72,7 @@ eksctl create cluster --name Sanjo-cluster --region us-west-2 --node-type t2.med
 
 
 5. To delete the EKS clsuter 
+
    ```sh 
    eksctl delete cluster sanjo-cluster --region us-west-2
    ```
@@ -77,6 +81,7 @@ eksctl create cluster --name Sanjo-cluster --region us-west-2 --node-type t2.med
 
    
 6. Validate your cluster using by creating by checking nodes and by creating a pod 
+
    ```sh 
    kubectl get nodes
    kubectl run pod tomcat --image=tomcat 
