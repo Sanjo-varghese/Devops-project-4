@@ -51,10 +51,12 @@ sudo ./aws/install
    --nodes-min 2 \
    --nodes-max 2 \ 
    --zones <AZ-1>,<AZ-2>
+```
    
    example:
+```sh
 eksctl create cluster --name Sanjo-cluster --region us-west-2 --node-type t2.medium --zones us-west-2a,us-west-2b
-    ```
+```
 
 5. To delete the EKS clsuter 
    ```sh 
