@@ -1,7 +1,7 @@
 ### Jenkins server setup with Helm to deploy into Kubernetes cluster
 
-sudo su -
-su - jenkins
+- sudo su -
+- su - jenkins
 
 ## Download and Install helm 
 ```sh
