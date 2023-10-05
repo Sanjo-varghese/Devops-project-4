@@ -5,8 +5,7 @@ You can follow same procedure in the official  AWS document [Getting started wit
 #### Pre-requisites: 
   - an EC2 Instance (Kubernetes Management Host) -> Amazon linux Ami -> t2.micro
 
-# 
-1. Install and setup kubectl on Management host
+# 1. Install and setup kubectl on Management host
    a. Download kubectl version 1.28.1 
    b. Grant execution permissions to kubectl executable   
    c. Move kubectl onto /usr/local/bin   
