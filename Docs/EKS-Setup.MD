@@ -20,6 +20,7 @@ You can follow same procedure in the official  AWS document [Getting started wit
 
 
 Install or update the AWS CLI
+
 ```sh
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
@@ -55,6 +56,7 @@ sudo ./aws/install
 ```
    
 example:
+
 ```sh
 eksctl create cluster --name Sanjo-cluster --region us-west-2 --node-type t2.medium --zones us-west-2a,us-west-2b
 ```
