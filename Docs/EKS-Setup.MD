@@ -10,7 +10,9 @@ You can follow same procedure in the official  AWS document [Getting started wit
    a. Download kubectl version 1.28.1 
    b. Grant execution permissions to kubectl executable   
    c. Move kubectl onto /usr/local/bin   
-   d. Test that your kubectl installation was successful    
+   d. Test that your kubectl installation was successful 
+
+
    ```sh 
   curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.28.1/2023-09-14/bin/linux/amd64/kubectl
    chmod +x ./kubectl
