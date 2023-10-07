@@ -2,7 +2,7 @@
 - Continuous integration repo Link : https://github.com/Sanjo-varghese/DevOps-CI-Petclinic.git
 - Continuous Deployment repo Link : https://github.com/Sanjo-varghese/DevOps-CD-Petclinic.git
 
-#  deploy Applications on EKS & AKS Kubernetes cluster with CI/CD pipelines by using helm charts👇
+#  Deploy Applications on EKS & AKS Kubernetes cluster with CI/CD pipelines by using helm charts👇
 
 <h1 align="center">Hi 👋, I'm sanjo Varghese</h1>
 <h3 align="center">A passionate IT proffesional</h3>
