@@ -1,6 +1,9 @@
 # ③ DevOps - Documentation : 
 - Continuous integration repo Link : https://github.com/Sanjo-varghese/DevOps-CI-Petclinic.git
 - Continuous Deployment repo Link : https://github.com/Sanjo-varghese/DevOps-CD-Petclinic.git
+- Metric Server k8 : https://github.com/Sanjo-varghese/Metric-server.git
+- Kubernetes : https://github.com/Sanjo-varghese/Kubernetes.git
+- ElasticSearch,Fluentd,Kibana : https://github.com/Sanjo-varghese/EFK-.git
 
 #  Deploy Applications on EKS & AKS Kubernetes cluster with CI/CD pipelines by using helm charts👇
 
